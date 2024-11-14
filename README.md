@@ -13,4 +13,4 @@
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
-[インストール](https://www.python.org/downloads/)する。
+[インストール](https://github.com/TokaiScienceClub/Deep-Sea-Data/releases/tag/0.0)する。
