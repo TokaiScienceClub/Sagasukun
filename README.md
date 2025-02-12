@@ -1,5 +1,5 @@
 # JODC500メッシュデータ変換ツール さがすくん
-![Image 1](images/app.png)
+![Image 1](images/さがすくん.svg)
 
 [JODC500メッシュデータ](https://www.jodc.go.jp/vpage/depth500_file_j.html)を変換し、緯度、経度での検索、Geojsonへの変換などができます。
 
@@ -14,5 +14,6 @@ ZIPファイルを解凍してインストール完了です。
 ## 使い方
 
 - さがすくん.exeを起動します。(ウィンドウは開きません）
-- https://www.jodc.go.jp/vpage/depth500_file_j.html にアクセスし
-- 主な機能は何か？
+- https://www.jodc.go.jp/vpage/depth500_file_j.html にアクセスし、データをダウンロードします。
+![Image 2](images/app.png)
+- ウィンドウが開きます。
