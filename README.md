@@ -13,4 +13,4 @@
 
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
-[インストール](https://github.com/TokaiScienceClub/Deep-Sea-Data/releases/tag/0.0)する。
+[インストール](https://github.com/TokaiScienceClub/sagasukun/blob/1.0/%E3%81%95%E3%81%8C%E3%81%99%E3%81%8F%E3%82%93.zip)する。
