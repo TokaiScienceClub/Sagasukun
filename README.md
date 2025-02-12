@@ -23,4 +23,4 @@ ZIPファイルを解凍してインストール完了です。
 
 ## お問い合わせ
 
-このページに使い方や、改善点などなんでも送ってください！
+[このページ](https://github.com/TokaiScienceClub/sagasukun/discussions)に使い方や、改善点などなんでも送ってください！
