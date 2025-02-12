@@ -14,5 +14,5 @@ ZIPファイルを解凍してインストール完了です。
 ## 使い方
 
 - さがすくん.exeを起動します。(ウィンドウは開きません）
-- (https://www.jodc.go.jp/vpage/depth500_file_j.html)にアクセスし
+- https://www.jodc.go.jp/vpage/depth500_file_j.html にアクセスし
 - 主な機能は何か？
