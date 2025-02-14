@@ -22,3 +22,7 @@
 ## お問い合わせ
 
 [このページ](https://github.com/TokaiScienceClub/sagasukun/discussions)に使い方や、改善点などなんでも送ってください！
+
+
+
+###東海中学校FLLチームが心をこめて作りました！
