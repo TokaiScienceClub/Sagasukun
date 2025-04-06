@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>さがすくん</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      width: 300px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    #searchForm {
+      display: none;
+      margin-top: 10px;
+    }
+    input {
+      width: 50px;
+      margin: 5px;
+    }
+    .error {
+      color: red;
+      font-size: 12px;
+    }
+    #progressContainer {
+      display: none;
+      margin-top: 10px;
+    }
+    #progressBarContainer {
+      width: 100%;
+      height: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      margin-top: 5px;
+    }
+    #progressBar {
+      height: 100%;
+      background-color: #4CAF50;
+      border-radius: 5px;
+      width: 0%;
+      transition: width 0.3s;
+    }
+    #progressMessage {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+  </style>
+  <script src="jszip.min.js" onerror="alert('JSZipの読み込みに失敗しました。jszip.min.jsを配置してください。')"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <button id="base10">10進法ダウンロード</button>
+  <button id="base60">60進法ダウンロード</button>
+  <button id="search60">60進法緯度経度検索</button>
+  <button id="convert_gis">GeoJsonに変換（少し時間がかかります）</button>
+  
+  <div id="searchForm">
+    <label>経度（分）範囲:</label>
+    <input id="longM1" type="number" min="0" max="59" placeholder="最小"> ~
+    <input id="longM2" type="number" min="0" max="59" placeholder="最大"><br>
+    <label>緯度（分）範囲:</label>
+    <input id="latM1" type="number" min="0" max="59" placeholder="最小"> ~
+    <input id="latM2" type="number" min="0" max="59" placeholder="最大"><br>
+    <button id="searchSubmit">検索してダウンロード</button>
+  </div>
+  
+  <div id="progressContainer">
+    <div id="progressMessage">処理中...</div>
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+  </div>
+  
+  <div id="error" class="error"></div>
+</body>
+</html>

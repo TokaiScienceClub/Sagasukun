@@ -1,0 +1,20 @@
+{
+  "name": "さがすくん",
+  "version": "1.0",
+  "description": "JODC500メッシュ水深データをを加工し扱いやすくすることができます。",
+  "manifest_version": 3,
+  "permissions": ["downloads", "storage", "notifications", "scripting"],
+  "host_permissions": ["https://www.jodc.go.jp/vpage/depth500_file_j.html"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module",
+    "persistence": true
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/sagasukun.svg"
+  }
+}
